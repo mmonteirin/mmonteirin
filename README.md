@@ -15,6 +15,11 @@ Official website and admin panel for the **Federação Cearense de Desportos Aqu
 - Manages news, events, PDFs, directors, and user roles
 - **Stack:** React 19 · TypeScript · TanStack Start · TanStack Router · TanStack Query · Supabase · Radix UI · TailwindCSS 4 · Cloudflare Workers · Zod
 
+### [SportsAcademy](https://github.com/mmonteirin/SportsAcademy)
+Web platform for managing sports courses and academies.
+
+- **Stack:** React · Supabase
+
 ### MonitoraCult
 Cross-platform marketplace connecting clients and cultural service providers.
 
