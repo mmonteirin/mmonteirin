@@ -1,28 +1,35 @@
 # Hi, I'm Marcos Monteiro 👋
 
-Computer Science student at UNIFOR (Universidade de Fortaleza) and full-stack developer focused on web and mobile applications. I build real-world projects using modern stacks — from React + TypeScript frontends deployed on Cloudflare to cross-platform mobile apps with React Native and Firebase.
+Computer Science student at UNIFOR and full-stack developer with **real projects in production**. I build web and mobile applications using modern stacks — from SSR frontends deployed on Cloudflare Workers to cross-platform mobile apps with React Native and Firebase.
 
-Beyond code, I have hands-on experience managing large operational data systems in high-demand environments, which gives me a strong analytical mindset for building reliable, data-driven solutions.
+Beyond code, I have hands-on experience managing large operational data systems in high-demand sports environments, which gives me a strong analytical mindset for building reliable, data-driven solutions.
 
 ---
 
 ## 🚀 Featured Projects
 
-### [FCDA — Portal Institucional](https://github.com/mmonteirin/fcda)
-Official website and admin panel for the **Federação Cearense de Desportos Aquáticos**.
+### [FCDA — Portal Institucional](https://github.com/mmonteirin/fcda) · [fcda.org.br](https://www.fcda.org.br) ↗
+Official website and admin panel for the **Federação Cearense de Desportos Aquáticos** — in production, serving 291 active athletes and 7 affiliated clubs.
 
-- Full SSR web app with authenticated admin area
-- Manages news, events, PDFs, directors, and user roles
+- Full SSR with authenticated admin panel (role-based: admin / editor)
+- Manages news, events, PDFs (23 document types), directors, and user accounts
+- RLS policies in Supabase, deployed to Cloudflare Workers edge network
 - **Stack:** React 19 · TypeScript · TanStack Start · TanStack Router · TanStack Query · Supabase · Radix UI · TailwindCSS 4 · Cloudflare Workers · Zod
+
+### [AquaFlow](https://github.com/mmonteirin/aquaflow)
+Full competition management system for aquatic sports federations — built from 6+ years of firsthand experience running national and state-level events.
+
+- Manages athletes, clubs, referees, heats, results, rankings, and records
+- RBAC permission system, reactive DB triggers, real-time officiating interface
+- Modules for timing, call room, protests, financials, and broadcast
+- **Stack:** React 18 · TypeScript · TanStack Start · TanStack Router · TanStack Query · Supabase · Radix UI · shadcn/ui · TailwindCSS
 
 ### [SportsAcademy](https://github.com/mmonteirin/SportsAcademy)
 Web platform for managing sports courses and academies.
-
 - **Stack:** React · Supabase
 
 ### MonitoraCult
 Cross-platform marketplace connecting clients and cultural service providers.
-
 - Social feed, live map with check-in, ticketing system, community groups, and admin area
 - Runs on Android, iOS, and Web via Expo
 - **Stack:** React Native · Expo · Firebase Auth · Firestore · React Navigation 7 · React Hook Form · Reanimated · Moti
@@ -36,8 +43,6 @@ Cross-platform marketplace connecting clients and cultural service providers.
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat&logo=react&logoColor=61DAFB)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
 
 **Backend & Database**
