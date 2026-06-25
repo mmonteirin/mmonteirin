@@ -34,6 +34,10 @@ Cross-platform marketplace connecting clients and cultural service providers.
 - Runs on Android, iOS, and Web via Expo
 - **Stack:** React Native · Expo · Firebase Auth · Firestore · React Navigation 7 · React Hook Form · Reanimated · Moti
 
+### [CultInsights](https://github.com/mmonteirin/cultinsights)
+Script Python de análise de dados de eventos culturais — gera relatório PDF com estatísticas, gráficos e insights automáticos.
+- **Stack:** Python · pandas · matplotlib · seaborn · ReportLab · Click
+
 ---
 
 ## 🛠 Tech Stack
